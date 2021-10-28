@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  border: 1px solid black;
+  border-radius: 8px;
+  color: black;
+  width: 250px;
+  margin: 10px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+}
+.Btns {
+  width: 250px;
+  height: 40px;
+  font-family: "Raleway", sans-serif;
+  background-color: rgb(5, 5, 53);
+  color: lightgrey;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: 30px;
+}
+.Btns:hover {
+  background-color: blue;
+  width: 253px;
+  transition: 0.3s;
+  color: white;
+}
